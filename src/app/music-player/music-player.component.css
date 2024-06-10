@@ -1,0 +1,12 @@
+.player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  mat-icon {
+    font-size: 40px;
+    color: #fff;
+  }
+  
