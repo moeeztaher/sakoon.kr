@@ -20,19 +20,19 @@ Make sure you have Node.js and Angular CLI installed on your machine.
 ```bash
 git clone https://github.com/yourusername/sakoon.kr.git
 ```
-Navigate to the project directory:
+2. Navigate to the project directory:
 ```bash
 cd sakoon.kr
 ```
-Install dependencies:
+3. Install dependencies:
 ```bash
 npm install
 ```
-Build the Angular app:
+4. Build the Angular app:
 ```bash
 ng build
 ```
-Start the Express server:
+5. Start the Express server:
 ```
 node server.js
 ```
