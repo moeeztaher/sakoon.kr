@@ -1,0 +1,10 @@
+.header {
+    background-color: #ffffff; /* White background */
+    text-align: center; /* Center the logo */
+    padding: 5px; /* Adjust padding as needed */
+  }
+  
+  .logo-container img {
+    width: 150px; /* Adjust the width of the logo as needed */
+  }
+  

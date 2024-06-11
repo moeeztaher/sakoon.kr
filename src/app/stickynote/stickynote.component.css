@@ -1,0 +1,11 @@
+.sticky-note {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+    resize: both;
+    overflow: auto;
+    margin-top: 200px;
+  }
+  

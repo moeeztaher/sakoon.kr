@@ -1,8 +1,11 @@
 .overlay {
+    position: relative; /* Ensure relative positioning */
+    z-index: 1; /* Ensure overlay is above header */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background: rgba(0, 0, 0, 0.5); /* Adjust opacity for desired aesthetic */
+    padding-top: 20px; /* Adjust the value as needed */
   }
   
