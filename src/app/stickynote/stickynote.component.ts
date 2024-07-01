@@ -19,6 +19,13 @@ export class StickyNoteComponent {
     // this.offsetX = event.clientX - this.x;
     // this.offsetY = event.clientY - this.y;
   }
+// might need to remove this
+    onMouseUp() {
+    console.log("hellofromup")
+    this.isDragging = false;
+    // this.offsetX = event.clientX - this.x;
+    // this.offsetY = event.clientY - this.y;
+  }
 
   @HostListener('document:mousemove', ['$event'])
   onMouseMove(event: MouseEvent) {
@@ -31,5 +38,10 @@ export class StickyNoteComponent {
   @HostListener('document:mouseup')
   onMouseUp() {
     this.isDragging = false;
+  }
+
+  @HostListener('document:mousedown')
+  onMouseDown() {
+    this.isDragging = true;
   }
 }
